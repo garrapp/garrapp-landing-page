@@ -287,7 +287,7 @@ export default function Home() {
           </div>
 
           <p className="mt-4 text-xs text-emerald-200">
-            Respuesta promedio 24h · Sin compromiso
+            Respuesta promedio en 24hs · Sin compromiso
           </p>
         </div>
       </section>
