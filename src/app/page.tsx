@@ -172,7 +172,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900">Certificación Digital</h4>
-                    <p className="text-slate-600">Documentos listos para MGAP y frigoríficos</p>
+                    <p className="text-slate-600">Documentos listos para MGAP</p>
                   </div>
                 </li>
               </ul>
