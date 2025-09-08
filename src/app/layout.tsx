@@ -1,19 +1,16 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Manrope } from "next/font/google";
+import 'leaflet/dist/leaflet.css';
 import '../styles/globals.css';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const manrope = Manrope({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400","600","700"],
+  variable: "--font-sans",
 });
 
 export const metadata = {
-  title: 'Agropé',
-  description: 'Bienvenido a Agropé',
+  title: 'GarrApp',
+  description: 'Bienvenidos a GarrApp',
 };
 
 export default function RootLayout({
@@ -23,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${manrope.variable} ${manrope.variable}`}>
         {children}
       </body>
     </html>

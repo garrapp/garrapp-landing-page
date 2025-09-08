@@ -4,12 +4,9 @@ module.exports = {
     content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
   	extend: {
-  		fontFamily: {
-  			sans: [
-  				'var(--font-inter)',
-  				'sans-serif'
-  			]
-  		},
+		fontFamily: {
+			sans: ['var(--font-sans)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
