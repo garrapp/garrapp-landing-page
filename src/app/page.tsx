@@ -79,7 +79,7 @@ export default function Home() {
               ¿Cómo funciona GarrApp?
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-green-800">
-              Conectamos productores ganaderos con servicios veterinarios y bañistas especializados en tres simples pasos
+              Conectamos productores ganaderos con servicios veterinarios y de baños de aspersión especializados en tres simples pasos
             </p>
           </div>
 
